@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: grey;
+}
+
+.first-div {
+    width: 380px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.second-div{
+    line-height: 80px;
+    background: aqua;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+form {
+    padding: 30px 20px 25px 20px;
+}
+
+.row {
+    height: 45px;
+    background: white;
+    margin-bottom: 15px;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.forgot {
+    margin: -10px 0 15px 0;
+}
+
+ .forgot a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.button input {
+    color: #fff;
+    font-weight: 500;
+    padding-left: 0px;
+    background: aqua;
+    border: 1px solid aqua;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 20px;
+}
+

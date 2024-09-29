@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.image .profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+.job {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.media {
+    
+    align-items: center;
+}
+
+.media .link {
+    
+    align-items: center;
+    justify-content: center;
+    color: ash; 
+    font-size: 18px;
+    height: 34px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 4px;
+    background-color: green; 
+    text-decoration: none;
+}
+
+.button {
+    margin-bottom: 10px;
+    
+}
+
+.me {
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    background-color: blue;
+
+}
